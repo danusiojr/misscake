@@ -51,7 +51,7 @@ div#bs-example-navbar-collapse-1 a {
     padding: 15px;
     position: absolute;
     display: block;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 /*MISS CAKE HEADER*/
@@ -63,11 +63,6 @@ div#bs-example-navbar-collapse-1 a {
     box-shadow: 2px 4px 10px #dcdcdc;
 }
 
-.menuopc{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
 
 .slide-image {
     width: 100%;
@@ -113,7 +108,24 @@ div#bs-example-navbar-collapse-1 a {
 
 .lead img{
     margin-left: -30px;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
+}
+
+.list-group-item{
+    font-size: 13pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.list-group p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.list-group {
+    box-shadow: 1px 1px 10px #606060;
+    border-radius: 10px;
 }
 
 
