@@ -8,9 +8,15 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-image: url("../images/dessert2.jpg");
+    background-image: url("../images/poa-back-1.jpg");
 }
 
+
+div#socialicons{
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+}
 
 /*MISS CAKE HEADER*/
 div#msheader a:hover{
@@ -36,6 +42,18 @@ div#bs-example-navbar-collapse-1 a {
     text-shadow: 1px 1px 1px rgba(0,0,0,.65);
     transition: 500ms;
 }
+
+.textocorpo {
+    width: 260px;
+    background-color: white;
+    margin: 120px 500px 0px -278px; /*deixa em auto na direita e na esquerda para centralizar o conteudo do site*/
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    padding: 15px;
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+}
+
 /*MISS CAKE HEADER*/
 
 .navbar-fixed-top{
